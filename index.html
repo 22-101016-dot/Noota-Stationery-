@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Noota – Data Analytics Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Noota – Data Analytics Dashboard</h1>
+  <p>Academic Data Analytics Project | Executive Insights</p>
+</header>
+
+<section class="kpi-section">
+  <div class="kpi">
+    <h3>Total Revenue (Year 1)</h3>
+    <p>EGP 523,950</p>
+  </div>
+  <div class="kpi">
+    <h3>Net Profit</h3>
+    <p>EGP 48,250</p>
+  </div>
+  <div class="kpi">
+    <h3>Break-even Month</h3>
+    <p>Month 11</p>
+  </div>
+  <div class="kpi">
+    <h3>SOM Target</h3>
+    <p>EGP 73M</p>
+  </div>
+</section>
+
+<section class="chart-section">
+  <h2>Financial Performance (12 Months)</h2>
+  <canvas id="profitChart"></canvas>
+</section>
+
+<section class="chart-section">
+  <h2>TAM / SAM / SOM Market Sizing</h2>
+  <canvas id="marketChart"></canvas>
+</section>
+
+<section class="chart-section">
+  <h2>Sentiment Analysis (Simulated Data)</h2>
+  <canvas id="sentimentChart"></canvas>
+  <p class="note">
+    *Sentiment data is simulated for analytical demonstration purposes.
+  </p>
+</section>
+
+<footer>
+  <p>Prepared for academic evaluation | Data Analytics Dashboard</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
